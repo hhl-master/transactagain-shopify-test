@@ -4,7 +4,7 @@ $data = json_decode($input, true);
 
 // Verify the webhook using the HMAC header
 $hmacHeader = $_SERVER['HTTP_X_SHOPIFY_HMAC_SHA256'];
-$calculatedHmac = base64_encode(hash_hmac('sha256', $input, '33da385e7bc46ee1f41086a1888b332c', true));
+$calculatedHmac = base64_encode(hash_hmac('sha256', $input, '9ff329c4aaecee791a2f4d8af8c7a03b', true));
 
 if (hash_equals($hmacHeader, $calculatedHmac)) {
     // Process the webhook payload
