@@ -7,7 +7,7 @@ use Shopify\Clients\Rest;
 session_start();
 
 // Shopify app credentials
-$apiSecret = 'your_api_secret';
+$apiSecret = '33da385e7bc46ee1f41086a1888b332c';
 
 // Step 2: Verify the callback from Shopify
 if (!isset($_GET['shop']) || !isset($_GET['code'])) {
