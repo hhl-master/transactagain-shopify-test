@@ -7,8 +7,8 @@ use Shopify\Clients\Rest;
 session_start();
 
 // Shopify app credentials
-$apiKey = '7c02368df14952077e3b1747bd3f1372';
-$apiSecret = '33da385e7bc46ee1f41086a1888b332c';
+$apiKey = 'a66a319ef0651ae2c15a42d50706d2f1';
+$apiSecret = '9ff329c4aaecee791a2f4d8af8c7a03b';
 $scopes = ['read_products', 'write_products'];
 $redirectUri = 'https://shopifytestapp.transactagain.com/transactagain-shopify-test/callback.php';
 
