@@ -7,10 +7,10 @@ use Shopify\Clients\Rest;
 session_start();
 
 // Shopify app credentials
-$apiKey = 'your_api_key';
-$apiSecret = 'your_api_secret';
+$apiKey = '7c02368df14952077e3b1747bd3f1372';
+$apiSecret = '33da385e7bc46ee1f41086a1888b332c';
 $scopes = ['read_products', 'write_products'];
-$redirectUri = 'https://your-app-domain.com/callback.php';
+$redirectUri = 'http://shopifytestapp.transactagain.com/transactagain-shopify-test/callback.php';
 
 // Step 1: Redirect to Shopify for OAuth
 if (!isset($_GET['shop'])) {
