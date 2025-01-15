@@ -42,7 +42,7 @@ if (hash_equals($hmac, $computed_hmac)) {
 
 	// Show the access token (don't do this in production!)
 	//echo $access_token;
-	echo "Transactagain Shopify Test App has been successfully installed!";
+	include "dashboard.php";
 
 } else {
 	// Someone is trying to be shady!
